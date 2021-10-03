@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "name": "Become a product Manager learn the skills & job.",
+    "instructor": "Jim Séchen",
+    "lesson": 73,
+    "img": "https://themepure.net/template/educal/educal/assets/img/course/course-1.jpg",
+    "price": 32
+  },
+  {
+    "id": 2,
+    "name": "Fundamentals of music theory Learn new",
+    "instructor": "Barry Tone",
+    "lesson": 42,
+    "img": "https://themepure.net/template/educal/educal/assets/img/course/course-2.jpg",
+    "price": 46
+  },
+  {
+    "id": 3,
+    "name": "Bases Matemáticas dios Álgebra Ecuacion",
+    "instructor": "Samuel Serif",
+    "lesson": 43,
+    "img": "https://themepure.net/template/educal/educal/assets/img/course/course-7.jpg",
+    "price": 29
+  },
+  {
+    "id": 4,
+    "name": "Strategy law and organization Foundation",
+    "instructor": "Elon Gated",
+    "lesson": 14,
+    "img": "https://themepure.net/template/educal/educal/assets/img/course/course-3.jpg",
+    "price": 42
+  },
+  {
+    "id": 5,
+    "name": "The business Intelligence analyst Course 2022",
+    "instructor": "Eleanor Fant",
+    "lesson": 22,
+    "img": "https://themepure.net/template/educal/educal/assets/img/course/course-4.jpg",
+    "price": 62
+  },
+  {
+    "id": 6,
+    "name": "The business Intelligence analyst Course 2022",
+    "instructor": "Brian Cumin",
+    "lesson": 27,
+    "img": "https://themepure.net/template/educal/educal/assets/img/course/course-8.jpg",
+    "price": 33
+  },
+  {
+    "id": 7,
+    "name": "Build your media and Public presence",
+    "instructor": "Pelican Steve",
+    "lesson": 18,
+    "img": "https://themepure.net/template/educal/educal/assets/img/course/course-5.jpg",
+    "price": 65
+  },
+  {
+    "id": 8,
+    "name": "Creative writing through Storytelling",
+    "instructor": "Shahnewaz Sakil",
+    "lesson": 17,
+    "img": "https://themepure.net/template/educal/educal/assets/img/course/course-6.jpg",
+    "price": 58
+  },
+  {
+    "id": 9,
+    "name": "Creative writing through Storytelling",
+    "instructor": "Hilary Ouse",
+    "lesson": 25,
+    "img": "https://themepure.net/template/educal/educal/assets/img/course/course-9.jpg",
+    "price": 42
+  }
+]
