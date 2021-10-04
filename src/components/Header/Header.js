@@ -1,52 +1,35 @@
 import React from 'react';
-import { Form, FormControl, Nav, Navbar, NavbarBrand } from 'react-bootstrap';
-import { NavLink } from 'react-router-dom';
+import { Button, Col, Container, Row } from 'react-bootstrap';
+import Naviagtion from '../Navigation/Navigation';
 
 const Header = () => {
-  const navStyle = {
-    color: '#242645',
-    textDecoration: 'none',
-    padding: '10px',
-    fontWeight: '500',
-  };
   return (
-    <Navbar bg="light" expand="lg">
-      <NavbarBrand style={navStyle} to="/home">
-        Navbar scroll
-      </NavbarBrand>
-      <Navbar.Toggle aria-controls="navbarScroll" />
-      <Navbar.Collapse id="navbarScroll">
-        <Nav
-          className="mr-auto my-2 my-lg-0 text-decoration-none"
-          style={{ maxHeight: '100px' }}
-          navbarScroll
-        >
-          <NavLink style={navStyle} to="/home">
-            Home
-          </NavLink>
-          <NavLink style={navStyle} to="/Service">
-            Services
-          </NavLink>
-          <NavLink style={navStyle} to="/blogs">
-            Blogs
-          </NavLink>
-          <NavLink style={navStyle} to="/about">
-            About us
-          </NavLink>
-          <NavLink style={navStyle} to="/contact">
-            Contact us
-          </NavLink>
-        </Nav>
-        <Form className="d-flex w-50 ms-5">
-          <FormControl
-            type="search"
-            placeholder="Search..."
-            className="mr-2"
-            aria-label="Search"
-          />
-        </Form>
-      </Navbar.Collapse>
-    </Navbar>
+    <div style={{ backgroundColor: '#b8dde3' }}>
+      <Naviagtion></Naviagtion>
+      <Container>
+        <Row xs={1} md={2} className="gx-md-5 gx-sm-3 p-5 ">
+          <Col className="pt-5">
+            <h6>Learn and Achieve</h6>
+            <h1>Find the right online tutor for you</h1>
+            <h5>
+              Meet university, and cultural institutions, who'll share their
+              experience
+            </h5>
+            <br />
+            <Button className="shadow" variant="secondary">
+              Ready to get started?
+            </Button>
+          </Col>
+          <Col>
+            <img
+              src="https://themepure.net/template/educal/img/hero/hero-2/hero.png"
+              alt=""
+              className="w-50 ms-md-5"
+            />
+          </Col>
+        </Row>
+      </Container>
+    </div>
   );
 };
 

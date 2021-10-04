@@ -4,71 +4,89 @@
     "name": "Become a product Manager learn the skills & job.",
     "instructor": "Jim Séchen",
     "lesson": 73,
+    "instructorPhoto": "https://themepure.net/template/educal/educal/assets/img/course/teacher/teacher-1.jpg",
     "img": "https://themepure.net/template/educal/educal/assets/img/course/course-1.jpg",
-    "price": 32
+    "price": 32,
+    "rating": 55
   },
   {
     "id": 2,
     "name": "Fundamentals of music theory Learn new",
     "instructor": "Barry Tone",
     "lesson": 42,
+    "instructorPhoto": "https://themepure.net/template/educal/educal/assets/img/course/teacher/teacher-2.jpg",
     "img": "https://themepure.net/template/educal/educal/assets/img/course/course-2.jpg",
-    "price": 46
+    "price": 46,
+    "rating": 35
   },
   {
     "id": 3,
     "name": "Bases Matemáticas dios Álgebra Ecuacion",
     "instructor": "Samuel Serif",
     "lesson": 43,
+    "instructorPhoto": "https://themepure.net/template/educal/educal/assets/img/course/teacher/teacher-3.jpg",
     "img": "https://themepure.net/template/educal/educal/assets/img/course/course-7.jpg",
-    "price": 29
+    "price": 29,
+    "rating": 58
   },
   {
     "id": 4,
     "name": "Strategy law and organization Foundation",
     "instructor": "Elon Gated",
     "lesson": 14,
+    "instructorPhoto": "https://themepure.net/template/educal/educal/assets/img/course/teacher/teacher-4.jpg",
     "img": "https://themepure.net/template/educal/educal/assets/img/course/course-3.jpg",
-    "price": 42
+    "price": 42,
+    "rating": 27
   },
   {
     "id": 5,
     "name": "The business Intelligence analyst Course 2022",
     "instructor": "Eleanor Fant",
     "lesson": 22,
+    "instructorPhoto": "https://themepure.net/template/educal/educal/assets/img/course/teacher/teacher-5.jpg",
     "img": "https://themepure.net/template/educal/educal/assets/img/course/course-4.jpg",
-    "price": 62
+    "price": 62,
+    "rating": 40
   },
   {
     "id": 6,
     "name": "The business Intelligence analyst Course 2022",
     "instructor": "Brian Cumin",
     "lesson": 27,
+    "instructorPhoto": "https://themepure.net/template/educal/educal/assets/img/course/teacher/teacher-6.jpg",
     "img": "https://themepure.net/template/educal/educal/assets/img/course/course-8.jpg",
-    "price": 33
+    "price": 33,
+    "rating": 30
   },
   {
     "id": 7,
     "name": "Build your media and Public presence",
     "instructor": "Pelican Steve",
     "lesson": 18,
+    "instructorPhoto": "https://themepure.net/template/educal/educal/assets/img/course/teacher/teacher-7.jpg",
     "img": "https://themepure.net/template/educal/educal/assets/img/course/course-5.jpg",
-    "price": 65
+    "price": 65,
+    "rating": 29
   },
   {
     "id": 8,
     "name": "Creative writing through Storytelling",
     "instructor": "Shahnewaz Sakil",
     "lesson": 17,
+    "instructorPhoto": "https://themepure.net/template/educal/educal/assets/img/course/teacher/teacher-8.jpg",
     "img": "https://themepure.net/template/educal/educal/assets/img/course/course-6.jpg",
-    "price": 58
+    "price": 58,
+    "rating": 18
   },
   {
     "id": 9,
     "name": "Creative writing through Storytelling",
     "instructor": "Hilary Ouse",
     "lesson": 25,
+    "instructorPhoto": "https://themepure.net/template/educal/educal/assets/img/course/teacher/teacher-9.jpg",
     "img": "https://themepure.net/template/educal/educal/assets/img/course/course-9.jpg",
-    "price": 42
+    "price": 42,
+    "rating": 35
   }
 ]

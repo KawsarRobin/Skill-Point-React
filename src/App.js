@@ -1,33 +1,39 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import './App.css';
-import About from './components/About/About';
-import Footer from './components/Footer/Footer';
-import Header from './components/Header/Header';
+import AboutPage from './components/aboutPage/AboutPage';
+import BlogPage from './components/BlogPage/BlogPage';
+import HomePage from './components/HomePage/HomePage';
 import NotFound from './components/NotFound/NotFound';
-import Service from './components/Service/Service';
+import ServicePage from './components/ServicePage/ServicePage';
 
 function App() {
+  const Styles = {
+    color: '#0e1133',
+  };
   return (
-    <div className="App">
+    <div style={Styles} className="App">
       <Router>
-        <Header></Header>
         <Switch>
-          <Route path="/home"></Route>
           <Route exact path="/">
-            <Header></Header>
+            <HomePage></HomePage>
+          </Route>
+          <Route exact path="/home">
+            <HomePage></HomePage>
           </Route>
           <Route path="/about">
-            <About></About>
+            <AboutPage></AboutPage>
           </Route>
-          <Route path="/service">
-            <Service></Service>
+          <Route path="/services">
+            <ServicePage></ServicePage>
+          </Route>
+          <Route path="/blogs">
+            <BlogPage></BlogPage>
           </Route>
           <Route path="*">
             <NotFound></NotFound>
           </Route>
         </Switch>
-        <Footer></Footer>
       </Router>
     </div>
   );

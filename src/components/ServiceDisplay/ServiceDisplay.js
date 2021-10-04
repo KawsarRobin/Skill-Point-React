@@ -1,19 +1,25 @@
-import { faBook, faStar } from '@fortawesome/free-solid-svg-icons';
+import {
+  faArrowRight,
+  faBook,
+  faStar,
+} from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
-import { Button, Card, Col } from 'react-bootstrap';
+import { Card, Col } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 
-const Service = (props) => {
+const ServiceDisplay = (props) => {
   const { id, name, img, lesson, price, instructor, rating, instructorPhoto } =
     props.service;
 
   const dynamicUrl = `/service/${id}`;
   const bookIcon = <FontAwesomeIcon icon={faBook} />;
   const starIcon = <FontAwesomeIcon icon={faStar} />;
+  const arrowIcon = <FontAwesomeIcon icon={faArrowRight} />;
+
   return (
     <Col>
-      <Card className="h-100 shadow">
+      <Card className="shadow">
         <Card.Img variant="top" src={img} className="p-2" />
         <Card.Body>
           <div className="d-flex justify-content-between">
@@ -24,8 +30,9 @@ const Service = (props) => {
             </p>
             <p>
               <small>
-                <small style={{ color: '#f38c16' }}>{starIcon}</small> 4.5 (
-                {rating})
+                {' '}
+                <span style={{ color: '#f38c16' }}>{starIcon}</span>
+                4.5 ({rating})
               </small>
             </p>
           </div>
@@ -40,10 +47,8 @@ const Service = (props) => {
           </Card.Text>
           <div className="d-flex justify-content-lg-between">
             <h5>${price}.00</h5>{' '}
-            <Link to={dynamicUrl}>
-              <Button variant="outline-success" size="sm">
-                Know details
-              </Button>
+            <Link className="text-decoration-none" to={dynamicUrl}>
+              <h6>Know details {arrowIcon}</h6>
             </Link>
           </div>
         </Card.Body>
@@ -52,4 +57,4 @@ const Service = (props) => {
   );
 };
 
-export default Service;
+export default ServiceDisplay;
