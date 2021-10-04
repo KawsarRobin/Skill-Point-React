@@ -1,6 +1,6 @@
 ## Skill Point (Educational basis site)
 
-Visit From here [https://app.netlify.com/sites/skill-point-assignment-9/settings/general](https://app.netlify.com/sites/skill-point-assignment-9/settings/general).
+Visit From here [https://skill-point-assignment-9.netlify.app/](https://skill-point-assignment-9.netlify.app/).
 
 ## Objectives and features
 
