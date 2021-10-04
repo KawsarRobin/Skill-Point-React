@@ -20,7 +20,6 @@ const Header = () => {
               Ready to get started?
             </Button>
           </Col>
-
           <Col>
             <img
               src="https://themepure.net/template/educal/img/hero/hero-2/hero.png"

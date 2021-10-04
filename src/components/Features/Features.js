@@ -55,7 +55,6 @@ const Features = () => {
               <p>Lifetime support with chat for your any kinds of problems</p>
             </Card>
           </Col>
-
           <Col>
             <Card
               className="p-4 text-white h-100 shadow"

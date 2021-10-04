@@ -34,7 +34,6 @@ const Footer = () => {
               </h3>
             </div>
           </Col>
-
           <Col>
             <h5>Company</h5>
             <p>About</p>

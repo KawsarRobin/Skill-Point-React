@@ -21,7 +21,6 @@ const ServiceFeatures = () => {
             You`re guaranteed to find something that`s right for you.
           </p>
         </div>
-
         <Row xs={2} md={4} className="g-4">
           {services.slice(0, 4).map((service) => (
             <ServiceDisplay key={service.id} service={service}></ServiceDisplay>

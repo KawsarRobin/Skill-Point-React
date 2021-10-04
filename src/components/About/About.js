@@ -5,6 +5,7 @@ import { Button, Container } from 'react-bootstrap';
 
 const About = () => {
   const CheckIcon = <FontAwesomeIcon icon={faCheck} />;
+
   return (
     <div className="bg-light p-5">
       <Container className="d-flex justify-content-evenly">
@@ -23,10 +24,10 @@ const About = () => {
             ensuring equal access.
           </p>
           <p>
-            This Plateform was created in 2022 by <strong>Kawsar Robin</strong>.
+            This Platform was created in 2022 by <strong>Kawsar Robin</strong>.
             We have 4,400 employees and $68 billion budget are dedicated to:
           </p>
-          <h6>{CheckIcon} Upskill your organization.</h6>
+          <h6>{CheckIcon} Up-skill your organization.</h6>
           <h6>{CheckIcon} Access more then 100K online courses</h6>
           <h6>{CheckIcon} Learn the latest skills</h6>
           <br />
