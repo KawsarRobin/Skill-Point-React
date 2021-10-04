@@ -10,7 +10,7 @@ const NotFound = () => {
         className="img-fluid"
       />
       <h1>Page Not Found!</h1>
-      <h4>Please try searching for some other page. Back to home</h4>
+      <h4>Please try searching for some other page</h4>
       <Link to="/home">
         <br />
         <button className="shadow btn btn-primary btn-lg"> Back to Home</button>

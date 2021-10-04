@@ -2,7 +2,7 @@ import React from 'react';
 import { Form, FormControl, Nav, Navbar, NavbarBrand } from 'react-bootstrap';
 import { NavLink } from 'react-router-dom';
 
-const Naviagtion = () => {
+const Navigation = () => {
   const navStyle = {
     color: '#242645',
     textDecoration: 'none',
@@ -50,4 +50,4 @@ const Naviagtion = () => {
   );
 };
 
-export default Naviagtion;
+export default Navigation;

@@ -52,7 +52,7 @@ const Features = () => {
                 className="w-50"
               />
               <h5>Lifetime Slack chat support</h5>
-              <p>Lifetime support with chat for your anykind of problems</p>
+              <p>Lifetime support with chat for your any kinds of problems</p>
             </Card>
           </Col>
 
@@ -67,7 +67,7 @@ const Features = () => {
                 className="w-50"
               />
               <h5>Research and Innovation</h5>
-              <p>Chance to research with projecs and develope skills</p>
+              <p>Chance to research with projects and develope skills</p>
             </Card>
           </Col>
         </Row>

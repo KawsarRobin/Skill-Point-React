@@ -1,11 +1,11 @@
 import React from 'react';
 import { Button, Col, Container, Row } from 'react-bootstrap';
-import Naviagtion from '../Navigation/Navigation';
+import Navigation from '../Navigation/Navigation';
 
 const Header = () => {
   return (
     <div style={{ backgroundColor: '#b8dde3' }}>
-      <Naviagtion></Naviagtion>
+      <Navigation></Navigation>
       <Container>
         <Row xs={1} md={2} className="gx-md-5 gx-sm-3 p-5 ">
           <Col className="pt-5 mb-5">

@@ -15,7 +15,7 @@ const Blogs = () => {
     <Container className="my-5">
       <div className="my-5">
         <h2 className="text-center fw-bolder">
-          Read our latest blog to improve your knowladge
+          Read our latest blog to improve your knowledge
         </h2>
         <p className="text-secondary text-center">
           You`re guaranteed to find something that`s right for you.
