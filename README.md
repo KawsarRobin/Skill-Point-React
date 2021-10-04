@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+## Skill Point (Educational basis site)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Visit From here [https://app.netlify.com/sites/skill-point-assignment-9/settings/general](https://app.netlify.com/sites/skill-point-assignment-9/settings/general).
 
 ## Available Scripts
 
