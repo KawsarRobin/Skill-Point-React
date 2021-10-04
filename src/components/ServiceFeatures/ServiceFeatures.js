@@ -14,7 +14,9 @@ const ServiceFeatures = () => {
     <div style={{ backgroundColor: '#edeef3' }}>
       <Container className="py-5">
         <div className="py-5">
-          <h2 className="text-center">Explore Our popular Course Service</h2>
+          <h2 className="text-center fw-bolder ">
+            Explore Our popular Course Service
+          </h2>
           <p className="text-secondary text-center">
             You`re guaranteed to find something that`s right for you.
           </p>

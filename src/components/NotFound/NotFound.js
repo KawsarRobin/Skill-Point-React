@@ -7,6 +7,7 @@ const NotFound = () => {
       <img
         src="https://themepure.net/template/educal/educal/assets/img/error/error.png"
         alt=""
+        className="img-fluid"
       />
       <h1>Page Not Found!</h1>
       <h4>Please try searching for some other page. Back to home</h4>

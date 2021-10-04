@@ -16,7 +16,7 @@ const About = () => {
           />
         </div>
         <div>
-          <h1>Achieve Your Goals With Us</h1>
+          <h1 className="fw-bolder">Achieve Your Goals With Us</h1>
           <p>
             Our mission is to promote student achievement and preparation for
             global competitiveness by fostering educational excellence and

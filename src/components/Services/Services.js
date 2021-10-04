@@ -13,7 +13,9 @@ const Services = () => {
 
   return (
     <Container className="my-5">
-      <h2 className="text-center">Find The Right Online Course For You</h2>
+      <h2 className="text-center fw-bolder">
+        Find The Right Online Course For You
+      </h2>
       <p className="text-secondary text-center">
         You`re guaranteed to find something that`s right for you.
       </p>

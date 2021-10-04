@@ -19,7 +19,7 @@ const ServiceDisplay = (props) => {
 
   return (
     <Col>
-      <Card className="shadow">
+      <Card className="shadow h-100">
         <Card.Img variant="top" src={img} className="p-2" />
         <Card.Body>
           <div className="d-flex justify-content-between">

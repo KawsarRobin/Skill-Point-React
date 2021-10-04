@@ -6,7 +6,7 @@ const Features = () => {
     <div style={{ backgroundColor: '#edeef3' }}>
       <Container>
         <div className="text-center py-5">
-          <h2>Why An Scholercity Out Of The Ordinary</h2>
+          <h2 className="fw-bolder">Why An Scholercity Out Of The Ordinary</h2>
           <p className="text-secondary">
             You don't have to struggle alone, you've got our assistance and
             help.

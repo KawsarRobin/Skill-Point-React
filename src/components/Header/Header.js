@@ -8,9 +8,9 @@ const Header = () => {
       <Naviagtion></Naviagtion>
       <Container>
         <Row xs={1} md={2} className="gx-md-5 gx-sm-3 p-5 ">
-          <Col className="pt-5">
+          <Col className="pt-5 mb-5">
             <h6>Learn and Achieve</h6>
-            <h1>Find the right online tutor for you</h1>
+            <h1 className="fw-bolder">Find the right online tutor for you</h1>
             <h5>
               Meet university, and cultural institutions, who'll share their
               experience
@@ -20,6 +20,7 @@ const Header = () => {
               Ready to get started?
             </Button>
           </Col>
+
           <Col>
             <img
               src="https://themepure.net/template/educal/img/hero/hero-2/hero.png"
