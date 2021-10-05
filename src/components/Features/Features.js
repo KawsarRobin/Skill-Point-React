@@ -33,7 +33,7 @@ const Features = () => {
               style={{ backgroundColor: '#dd246e' }}
             >
               <img
-                src="https://img-premium.flaticon.com/png/128/3850/premium/3850285.png?token=exp=1633449436~hmac=3185435aa680e7b9818e35522a86f7a9"
+                src="https://cdn-icons-png.flaticon.com/128/2942/2942842.png"
                 alt=""
                 className="w-50"
               />
