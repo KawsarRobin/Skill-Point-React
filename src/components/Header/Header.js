@@ -9,7 +9,7 @@ const Header = () => {
       <Container>
         <Row xs={1} md={2} className="gx-md-5 gx-sm-3 p-5 ">
           <Col className="pt-5 mb-5">
-            <h6>Learn and Achieve</h6>
+            <h6 className="text-success">Learn and Achieve</h6>
             <h1 className="fw-bolder">Find the right online tutor for you</h1>
             <h5>
               Meet university, and cultural institutions, who'll share their

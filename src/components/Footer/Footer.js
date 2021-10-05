@@ -22,15 +22,15 @@ const Footer = () => {
               Great lesson ideas and lesson plans for ESL teachers! Educators
               can customize lesson plans to best.
             </p>
-            <div class="fw-bolder d-flex">
+            <div className="fw-bolder d-flex">
               <h3>
-                <i class="fab fa-facebook "></i>
+                <i className="fab fa-facebook "></i>
               </h3>
               <h3>
-                <i class="fab fa-instagram mx-3"></i>
+                <i className="fab fa-instagram mx-3"></i>
               </h3>
               <h3>
-                <i class="fab fa-dribbble"></i>
+                <i className="fab fa-dribbble"></i>
               </h3>
             </div>
           </Col>
